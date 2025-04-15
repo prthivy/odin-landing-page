@@ -11,6 +11,11 @@ body {
     font-family: Roboto, sans-serif;
 } 
 
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -43,15 +48,18 @@ a {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
 .herosecond {
     color: #bfbfbf;
     font-size: 18px;
+    margin-bottom: 8px;
 }
 
 .herotext {
     max-width: 400px;
+    
 }
 
 .herotext button {
@@ -60,8 +68,6 @@ a {
     border-radius: 8px;
     padding: 8px 32px;
     border: none;
-    margin-top: 8px;
-
 }
 
 .section1 {
