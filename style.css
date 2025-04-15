@@ -31,6 +31,7 @@ a {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .hero {
@@ -65,7 +66,7 @@ a {
 
 .section1 {
     background-color: #1F2937;
-    padding: 8px 128px 128px;
+    padding: 8px 256px 128px;
     display: flex;
     flex-direction: column;
     gap: 64px;
@@ -90,4 +91,78 @@ a {
     display: flex;
     justify-content: center;
     padding: 64px;
+    gap: 32px;
+}
+
+.info1, .info2, .info3, .info4 {
+    max-width: 100px;
+    text-align: center;
+}
+
+.info1 img, .info2 img, .info3 img, .info4 img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 64px 320px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quoteby {
+    text-align: end;
+    font-weight: bold;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding: 64px 256px;
+    flex-grow: 1;
+}
+
+.calltoaction {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 0px none;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 96px;
+    flex-grow: 1;
+}
+
+.section4 .calltoaction button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+}
+
+.uppertext {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.lowertext {
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 48px 0px;
 }
